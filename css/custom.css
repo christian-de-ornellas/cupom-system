@@ -1,0 +1,133 @@
+body{
+background-image: url(../img/bg2.jpg);
+/*overflow-y: hidden; */
+margin-top: 0px auto;
+}
+aside {
+  margin-top: 20px;
+  width: 200px;
+  height: 250px;
+  background: #064B90;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  padding-bottom: 1px;
+}
+
+
+header{
+width: 100%;
+height: 150px;
+padding-left: 20px;
+padding-top: 20px;
+background-image:url(../img/bgtp.jpg);
+background-size: 1129px;
+background-position:  right;
+margin-bottom: 40px;
+margin-top: 40px;
+border-radius: 5px;
+border: 6px #017DC5 solid;
+}
+header img{
+margin-top: 3px;
+}
+
+.navbar-inverse{
+
+background: #216BB6;
+border: 5px #064B90 solid;
+
+
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #205EA5;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #FFF;
+    background-color:  #205EA5;
+}
+.asside-right{
+height: auto;	
+width: 920px;
+float: right;
+
+}
+textarea{
+margin-top:8px; 
+margin-left: 16px;
+width: 870px !important;
+}
+
+.footer-bottom{
+    color: #bbb;
+    text-align: center;
+    margin-top: 20px;
+    margin-right:220px;
+    float: right;
+    width: 600px;
+    height: 200px;   
+}
+/*
+ Cupon*/
+
+.table-cupon{
+  
+    width: 230px;
+    height: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #fff;
+}
+.bordas{
+    border: 1px #000 solid;
+    padding-top: 5px;
+    padding-left:  5px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    border-radius: 8px;    
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #017DC5 !important;
+    white-space: nowrap;
+}
+
+
+.dropdown-menu > li > a:hover {
+    color: #FFF!important;
+    text-decoration: none;
+    background-color: #00438A !important;
+}
+
+
+.bordas b {
+    
+    font-size: 13px;
+    
+}
+
+.bordas p {
+    
+    font-size: 12px;
+    
+}
+    
+
+.txtcnpj p{
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+input:invalid { border: 1px solid red; }
+input:valid { border: 1px solid green; }
